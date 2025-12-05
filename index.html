@@ -1,70 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            img {
+                 max-width: 100%;
+                 height: auto;
+            
+}
 
-    <style>
-        body {
-            background-color: #34495E;
-            text-align: center;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            color: white;
-        }
+            button{
+                width: auto;
+                padding: 10px 20px;
+                
+            }
+            button:hover{
+                background-color: #34495E;
+            }
+        </style>
 
-        .scroll-container {
-            overflow: hidden;
-            white-space: nowrap;
-        }
-
-        .scroll-content {
-            display: inline-block;
-            animation: scroll 10s linear infinite;
-        }
-
-        @keyframes scroll {
-            0% { transform: translateX(100%); }
-            100% { transform: translateX(-100%); }
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        button {
-            display: flex;
-            margin-left: auto;
-            margin-right: 20px;
-            margin-top: 20px;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #2C3E50;
-        }
-    </style>
-</head>
-
-<body>
-    <h1>Welcome to Aliah Hospital</h1>
-
-    <div class="scroll-container">
-        <div class="scroll-content">
+    </head>
+    <body style="background-color:#34495E; text-align: center;">
+        <h1> Welcome TO ALISHEA HOSPITAL</h1>
+        <marquee>
             <div>
-                <img src="medical-logo_1071931-1170.jpg">
+                <img src="medical-logo_1071931-1170.jpg" >
                 <p>offering around the clock care</p>
+                
             </div>
-        </div>
-    </div>
-
-    <button onclick="document.location='service.html'">
-        <img src="nexto2.png" alt="Next">
-    </button>
-
-</body>
+        </marquee>
+        <button onclick="document.location='services.html'">next</button>
+    </body>
 </html>
 
            
+
